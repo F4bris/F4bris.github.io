@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.flowix{
+    color: #00bfa6;
+    font-weight: 800;
+}
+
+h2{
+    margin: 0;
+    font-weight: 1000;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    color: white;
+    background-color: #000000;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.habilidades{
+    display: none;
+}
+
+.about-me {
+        max-width: 70%;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: #d2d2d2 0.5px 1px 1px;
+}
+
+p {
+    font-size: clamp(0.95rem, 2.5vw, 1rem);
+    line-height: 1.4;
+}
+
+
+/*-------------------Boton de "Ver proyecto"-------------------*/
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 9px;
+    font-weight: semi-bold;
+    margin-bottom: 10px;
+    transition: 
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+button:hover {
+    background-color: #0b11d3;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/*------------------------------------------------------------*/
+
+
+.proyectos{
+        background-color: #ffffff;
+        max-width: 70%;
+        margin: 40px auto;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: #d2d2d2 1px 2px 2px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .proyectos h2{
+        text-align: center;
+    }
+
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}   
+
+.tecnologias p{
+    margin-top: 7px;
+    font-size: 0.9rem;
+}
+
+.htmldiv{
+    width: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cssdiv{
+    width: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.jsdiv{
+    width: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*seccion contacto--------------------------*/
+.contacto{
+    background-color: #ffffff;
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: #d2d2d2 1px 2px 2px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.numero a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (min-width: 670px) {
+    .habilidades{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .software{
+        display: none;
+    }
+
+  .proyectos{
+    display: flex;
+    
+  }
+}
