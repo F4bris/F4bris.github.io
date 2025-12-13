@@ -5,15 +5,15 @@ Flowix es una solución que consiste en una plataforma digital (web o móvil), l
 
 ## INTEGRANTES:
 
--Cordova Valdivia, Fabio Joaquin (U20221B668)
+-Cordova Valdivia, Fabio Joaquin 
 
--Espinoza Lopez, Paul Alexandro Angel (U20241E321)
+-Espinoza Lopez, Paul Alexandro Angel 
 
--Garcia Villanueva, Leonardo Rafael (U20231H059)
+-Garcia Villanueva, Leonardo Rafael 
 
--Lozano Leon, Richard Enrique (U20241D990)
+-Lozano Leon, Richard Enrique 
 
--Tello Palacios, Fabrizio Rafael (U202113310)
+-Tello Palacios, Fabrizio Rafael (
 
 ## SEGMENTOS OBJETIVO
 
@@ -32,6 +32,7 @@ Edad: 35 - 65 años
 Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
 
 Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+
 
 
 
