@@ -151,6 +151,14 @@ button:active {
     color: black;
 }
 
+.correo {
+    display: none;
+}
+
+.correo2{
+    display: block;
+}
+
 
 @media (min-width: 670px) {
     .habilidades{
@@ -166,4 +174,14 @@ button:active {
     display: flex;
     
   }
+
+    
+  .correo2{
+    display: none;
+  }
+
+  .correo {
+    display: block;
+}
+
 }
